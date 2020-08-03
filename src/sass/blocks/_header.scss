@@ -1,0 +1,70 @@
+.header {
+    min-height: 120px;
+    padding:16px 0 17px 0;
+    background-color: $yellow-color;
+    &__wrapper {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    &__nav {
+        margin-top: 25px;
+        height: 64px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        form{
+            position: relative;
+        }
+    }
+    &__searchbar {
+        display: flex;
+        align-items: center;
+        border: none;
+        width: 635px;
+        height: 36px;
+        padding-left: 10px;
+        outline: none;
+    }
+    &__btn {
+        position: absolute;
+        border:none;
+        background-color: $white-color;
+        top: 2px;
+        right: 0;
+        cursor: pointer;
+        height: 34px;
+    }
+    &__list {
+        display: flex;
+        justify-content: space-between;
+        width: 613px;
+        height: 22px;
+        opacity: 0.5;
+        list-style-type: none;
+        margin-top: 10px;
+    }
+        li {
+            a {
+                color: $black-color;
+                font-size: 20px;
+            }
+        }
+    &__logo {
+        width: 180px;
+        img {
+            width: 100%;
+        }
+    }
+    &__cabinet {
+        a {
+            img {
+                margin-top: -10px;
+            }
+            
+        }
+        span {
+            font-size: 22px;
+        }
+    }
+}

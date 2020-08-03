@@ -1,0 +1,19 @@
+@import './base/variables';
+
+* {
+    font-family: 'Montserrat', sans-serif;
+}
+.container {
+	max-width: 1110px;
+	margin: 0 auto;
+}
+
+@import './blocks/header';
+@import './blocks/intro';
+@import './blocks/block';
+@import './blocks/btn';
+@import './blocks/parametres';
+@import './blocks/list';
+@import './blocks/auto';
+@import './blocks/car-descr';
+@import './blocks/footer';

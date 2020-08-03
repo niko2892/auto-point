@@ -1,0 +1,36 @@
+.car-descr, .car-descr-right {
+    margin-top: 10px;
+    width: 445px;
+    &-right {
+        position: relative;
+        margin-left: 35px;
+        .car-city {
+            position: absolute;
+            bottom: 0;
+        }
+    }
+    .first-line, .last-line{
+        display: flex;
+        justify-content: space-between;
+        .car-name {
+            font-weight: 700;
+            font-size: 18px;
+        }
+        .car-price {
+            text-align: center;
+            color: $white-color;
+            background-color: $black-color;
+            width: 77px;
+            height: 26px;
+            font-weight: 500;
+            font-size: 18px;
+        }
+        .car-city {
+            font-weight: 500;
+            font-size: 18px;
+        }
+        .car-engine {
+            width: 100%;
+        }
+    }  
+}
