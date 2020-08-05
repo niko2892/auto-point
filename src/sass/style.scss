@@ -8,12 +8,9 @@
 	margin: 0 auto;
 }
 
-@import './blocks/header';
-@import './blocks/intro';
-@import './blocks/block';
+@import './blocks/header.scss';
+@import './blocks/adv';
 @import './blocks/btn';
-@import './blocks/parametres';
-@import './blocks/list';
-@import './blocks/auto';
-@import './blocks/car-descr';
-@import './blocks/footer';
+@import './blocks/calc';
+@import './blocks/car';
+@import './blocks/footer.scss';

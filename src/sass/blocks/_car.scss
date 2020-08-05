@@ -1,0 +1,95 @@
+.car {
+    min-height: 705px;
+    padding: 102px 0 200px 0;
+    &__left {
+        min-height: 404px;
+        width: 442px;
+
+    }
+
+    &__main {
+        &-wrapper {
+            display: flex;
+            justify-content: space-between;
+        }
+        &-img-wrapper {
+            width: 442px;
+            height: 299px;
+        }
+        &-img {
+            width: 100%;
+            height: 100%;
+        }
+    }
+
+    &__descr {
+        margin-top: 10px;
+        min-height: 87px;
+        width: 442px;
+        &-first-row, &-second-row {
+            margin-bottom: 5px;
+        }
+        &-aux {
+            width: 285px;
+            min-height: 190px;
+            margin-left: 10px;
+        }
+    }
+
+    &__name {
+        font-weight: 500;
+        font-size: 18px;
+        color: $black-color;
+        display: inline;
+    }
+
+    &__price {
+        width: 77px;
+        height: 26px;
+        background-color: $black-color;
+        line-height: 26px;
+        text-align: center;
+        color: $white-color;
+        float: right;
+    }
+
+    &__engine-type, &__transmission, &__body, &__engine-volume, &__year, &__mileage {
+        font-weight: 300;
+        font-size: 18px;
+        letter-spacing: 0.01em;
+        opacity: .5;
+        color: $black-color;
+        display: inline;
+    }
+
+    &__city {
+        font-weight: 500;
+        font-size: 18px;
+        letter-spacing: 0.01em;
+        color: $black-color;
+        float: right;
+    }
+
+    &__right {
+        width: 635px;
+        min-height: 404px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        &-upper, &-lower {
+            display: flex;
+            width: 635px;
+            min-height: 195px;
+        }
+    }
+
+    &__aux-img {
+        height: 100%;
+        width: 100%;
+        &-wrapper {
+            width: 316px;
+            height: 192px;
+        }
+    }
+}
+
