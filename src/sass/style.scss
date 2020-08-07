@@ -1,7 +1,11 @@
 @import './base/variables';
 
 * {
-    font-family: 'Montserrat', sans-serif;
+	font-family: 'Montserrat', sans-serif;
+	box-sizing: border-box;
+	img {
+		max-width: 100%;
+	}
 }
 .container {
 	max-width: 1110px;
@@ -14,3 +18,5 @@
 @import './blocks/calc';
 @import './blocks/car';
 @import './blocks/footer.scss';
+@import './blocks/news-descr';
+@import './blocks/media';
